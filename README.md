@@ -141,13 +141,13 @@ Ilya Tolstikhin, Olivier Bousquet, Sylvain Gelly and Bernhard Schoelkopf
         * It penalizes a discrepancy between two distributions in $Z$ and $P_{Z}$ and a distribution of encoded data points, i.e. $Q_{Z} := E_{P_{X}}[Q(Z|X)]$
         * It captures how distinct the image by the encoder of each training example is from the prior $P_{Z}$
 
-![image](image\wae-overview.png)
+![image](image/wae-overview.png)
 
 * Two different regularizers have been proposed
     * WAE-GAN: is based on GANs and adversarial training in the latent space Z. 
     * WAE-MMD: uses the maximum mean discrepancy which is known to perform well when matching high-dimensional standard normal distributions $P_{Z}$ (Gretton et al., 2012).
 
-![image](image\wae-gan-output-mnist.png)  
+![image](image/wae-gan-output-mnist.png)  
 
 ## PPP-NET:  PLATFORM-AWARE PROGRESSIVE SEARCH FOR PARETO-OPTIMAL NEURAL ARCHITECTURES 
 Jin-Dong Dong, An-Chieh Cheng, Da-Cheng Juan, Wei Wei& Min Sun
